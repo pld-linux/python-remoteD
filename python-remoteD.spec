@@ -1,4 +1,4 @@
-# $Revision: 1.1 $ $Date: 2004-05-28 21:40:22 $
+# $Revision: 1.2 $ $Date: 2004-06-04 22:04:08 $
 
 %include	/usr/lib/rpm/macros.python
 %define 	module	remoteD
@@ -19,10 +19,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-remoteD is a Python module that make multiprocess programming and PC
+remoteD is a Python module that make multiprocess programming and IPC
 extremely simple. Each process has access to a shared datastore
-aintained by a remoteD server. remoteD servers are auto created for ou
-when your first process creates a share stub.
+maintained by a remoteD server. remoteD servers are auto created for
+you when your first process creates a share stub.
 
 %description -l pl
 remoteD jest modu³em Pythona szalenie u³atwiaj±cym programowanie
