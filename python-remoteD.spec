@@ -1,6 +1,5 @@
-# $Revision: 1.2 $ $Date: 2004-06-04 22:04:08 $
+# $Revision: 1.3 $ $Date: 2004-07-28 08:03:18 $
 
-%include	/usr/lib/rpm/macros.python
 %define 	module	remoteD
 
 Summary:	Python module that simplifies multiprocess and IPC programming
