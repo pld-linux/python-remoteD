@@ -1,9 +1,9 @@
-# $Revision: 1.4 $ $Date: 2004-11-27 19:01:24 $
+# $Revision: 1.5 $ $Date: 2007-02-12 01:06:29 $
 
 %define 	module	remoteD
 
 Summary:	Python module that simplifies multiprocess and IPC programming
-Summary(pl):	Modu³ Pythona upraszczaj±cy programowanie wieloprocesowe i IPC
+Summary(pl.UTF-8):   ModuÅ‚ Pythona upraszczajÄ…cy programowanie wieloprocesowe i IPC
 Name:		python-%{module}
 Version:	0.8
 Release:	1
@@ -23,24 +23,24 @@ extremely simple. Each process has access to a shared datastore
 maintained by a remoteD server. remoteD servers are auto created for
 you when your first process creates a share stub.
 
-%description -l pl
-remoteD jest modu³em Pythona szalenie u³atwiaj±cym programowanie
-wieloprocesowe i IPC. Ka¿dy proces uzyskuje dostêp do dzielonego
-zasobu danych utrzymywanego przez serwer remoteD. Serwery remoteD s±
-tworzone automatycznie, gdy pierwszy z procesów tworzy obszar
+%description -l pl.UTF-8
+remoteD jest moduÅ‚em Pythona szalenie uÅ‚atwiajÄ…cym programowanie
+wieloprocesowe i IPC. KaÅ¼dy proces uzyskuje dostÄ™p do dzielonego
+zasobu danych utrzymywanego przez serwer remoteD. Serwery remoteD sÄ…
+tworzone automatycznie, gdy pierwszy z procesÃ³w tworzy obszar
 dzielony.
 
 %package doc
 Summary:	Documentation for remoteD module
-Summary(pl):	Dokumentacja do modu³u remoteD
+Summary(pl.UTF-8):   Dokumentacja do moduÅ‚u remoteD
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
 This package contains documentation files for remoteD Python module.
 
-%description doc -l pl
-Pakiet zawieraj±cy dokumentacjê dla modu³u Pythona remoteD.
+%description doc -l pl.UTF-8
+Pakiet zawierajÄ…cy dokumentacjÄ™ dla moduÅ‚u Pythona remoteD.
 
 %prep
 %setup -q -n %{module}-%{version}
