@@ -1,9 +1,9 @@
-# $Revision: 1.5 $ $Date: 2007-02-12 01:06:29 $
+# $Revision: 1.6 $ $Date: 2007-02-13 08:06:43 $
 
 %define 	module	remoteD
 
 Summary:	Python module that simplifies multiprocess and IPC programming
-Summary(pl.UTF-8):   Moduł Pythona upraszczający programowanie wieloprocesowe i IPC
+Summary(pl.UTF-8):	Moduł Pythona upraszczający programowanie wieloprocesowe i IPC
 Name:		python-%{module}
 Version:	0.8
 Release:	1
@@ -32,7 +32,7 @@ dzielony.
 
 %package doc
 Summary:	Documentation for remoteD module
-Summary(pl.UTF-8):   Dokumentacja do modułu remoteD
+Summary(pl.UTF-8):	Dokumentacja do modułu remoteD
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
