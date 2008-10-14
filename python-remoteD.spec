@@ -1,4 +1,4 @@
-# $Revision: 1.7 $ $Date: 2008-10-03 18:00:26 $
+# $Revision: 1.8 $ $Date: 2008-10-14 06:42:59 $
 
 %define 	module	remoteD
 
@@ -6,7 +6,7 @@ Summary:	Python module that simplifies multiprocess and IPC programming
 Summary(pl.UTF-8):	Moduł Pythona upraszczający programowanie wieloprocesowe i IPC
 Name:		python-%{module}
 Version:	0.8
-Release:	2
+Release:	3
 License:	BSD-style
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/remoted/%{module}-%{version}.tar.gz
