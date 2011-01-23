@@ -1,4 +1,4 @@
-# $Revision: 1.9 $ $Date: 2010-07-08 08:37:46 $
+# $Revision: 1.10 $ $Date: 2011-01-23 21:10:45 $
 
 %define 	module	remoteD
 
@@ -13,6 +13,8 @@ Source0:	http://dl.sourceforge.net/remoted/%{module}-%{version}.tar.gz
 # Source0-md5:	50798875923c85a53872f94ead36c72f
 URL:		http://remoted.neurokode.com/
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
