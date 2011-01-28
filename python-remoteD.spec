@@ -1,4 +1,3 @@
-# $Revision: 1.10 $ $Date: 2011-01-23 21:10:45 $
 
 %define 	module	remoteD
 
