@@ -5,7 +5,7 @@ Summary:	Python module that simplifies multiprocess and IPC programming
 Summary(pl.UTF-8):	Moduł Pythona upraszczający programowanie wieloprocesowe i IPC
 Name:		python-%{module}
 Version:	0.8
-Release:	4
+Release:	5
 License:	BSD-style
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/remoted/%{module}-%{version}.tar.gz
