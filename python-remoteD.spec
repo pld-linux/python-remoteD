@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/remoted/%{module}-%{version}.tar.gz
 # Source0-md5:	50798875923c85a53872f94ead36c72f
 URL:		http://remoted.neurokode.com/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
